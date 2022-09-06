@@ -31,7 +31,7 @@ popFront(array)
 // Insert At
 
 function insertAt(arr, index, num){
-    for(let i = 0 ; i <= index; i++){
+    for(let i = arr.length ; i >= index; i--){
         arr[i] = arr[i-1]
         
 }
